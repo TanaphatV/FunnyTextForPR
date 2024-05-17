@@ -13,6 +13,7 @@ int main()
 	for (int i = 0; i < 12169; i++)
 	{
 		stringstream s = stringstream("text");
+		s << "./randomText/";
 		s << i;
 		s << ".txt";
 
